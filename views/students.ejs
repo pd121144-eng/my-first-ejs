@@ -18,6 +18,7 @@
     </style>
 </head>
 <body>
+    <%- include('partials/header')%>
     <h2>MCA Student Details</h2>
     <table>
         <tr>
@@ -32,4 +33,5 @@
                 <td><%= student.CGPA %></td>
             </tr>
         <% }); %>
-    </table>     </body>     </html>
+    </table> 
+<%- include('partials/footer') %>    </body>     </html>
